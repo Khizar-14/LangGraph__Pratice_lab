@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# Coverage and test output
+.coverage
+htmlcov/
+coverage.xml
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# GitHub Copilot and local tools
+.copilot/
+.claude/
+.cursor/

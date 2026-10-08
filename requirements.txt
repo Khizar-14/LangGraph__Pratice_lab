@@ -1,0 +1,15 @@
+langgraph>=1.0
+langchain>=1.0
+langchain-core
+langchain-anthropic
+langchain-openai
+langchain-mcp-adapters
+mcp
+fastapi
+uvicorn[standard]
+pydantic>=2
+# production persistence (optional, only when DATABASE_URL is set)
+langgraph-checkpoint-postgres
+psycopg[binary,pool]
+# observability (optional)
+langsmith
